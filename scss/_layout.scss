@@ -1,0 +1,10 @@
+.container {
+  width: 85%;
+  max-width: 500px;
+  margin: 10rem 0;
+
+  @media (min-width: 768px) {
+    max-width: unset;
+    margin: 8rem 0;
+  }
+}

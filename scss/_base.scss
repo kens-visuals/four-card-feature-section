@@ -1,13 +1,13 @@
-// - Red: hsl(0, 78%, 62%)
-// - Cyan: hsl(180, 62%, 55%)
-// - Orange: hsl(34, 97%, 64%)
-// - Blue: hsl(212, 86%, 64%)
-// - Very Dark Blue: hsl(234, 12%, 34%)
-// - Grayish Blue: hsl(229, 6%, 66%)
-// - Very Light Gray: hsl(0, 0%, 98%)
+$color-primary: hsl(0, 0%, 98%);
+$color-primary--dark: hsl(234, 12%, 34%);
+$color-primary--light: hsl(229, 6%, 66%);
+$color-red: hsl(0, 78%, 62%);
+$color-blue: hsl(212, 86%, 64%);
+$color-orange: hsl(34, 97%, 64%);
+$color-cyan: hsl(180, 62%, 55%);
+$color-white: hsl(0, 0%, 100%);
 
-// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-// - Weights: 200, 400, 600
+$font-primary: 'Poppins', sans-serif;
 
 *,
 *::before,
@@ -23,7 +23,12 @@ html {
 }
 
 body {
-  width: 100%;
-  height: 100vh;
+  color: $color-primary--dark;
+  background-color: $color-primary;
   font-size: 1.6rem;
+  font-family: $font-primary;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
