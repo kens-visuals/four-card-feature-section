@@ -5,12 +5,12 @@
     text-align: center;
     font-weight: 200;
     font-size: 2.4rem;
-    line-height: 5.3rem;
     margin-bottom: 1.6rem;
     display: block;
 
     @media (min-width: 768px) {
       font-size: 3.6rem;
+      line-height: 5.3rem;
     }
 
     &--highlighted {
@@ -45,7 +45,7 @@
 
     @media (min-width: 1140px) {
       grid-template-rows: repeat(2, 1fr);
-      grid-template-columns: repeat(3, 36.5rem);
+      grid-template-columns: repeat(3, 36.8rem);
       grid-gap: 3rem 1.2rem;
     }
   }
@@ -55,16 +55,14 @@
     background-color: $color-white;
     border-radius: 0.7rem;
     padding: 2.5rem 3rem 2.5rem 3rem;
-    box-shadow: rgba($color-blue, 0.11) 0px 20px 25px -5px,
-      rgba($color-primary--dark, 0.09) 0px 15px 15px 0px;
+    box-shadow: rgba($color-blue, 0.11) 0px 20px 25px -10px,
+      rgba($color-primary--dark, 0.09) 0px 20px 15px -5px;
     position: relative;
+    overflow: hidden;
+    transform: translateY(-0.5rem);
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-
-    @media (min-width: 1140px) {
-      padding: 3rem;
-    }
+    transition: all 0.2s ease-in-out;
 
     &::before {
       content: '';
@@ -75,6 +73,16 @@
       height: 0.4rem;
     }
 
+    @media (min-width: 1140px) {
+      padding: 3rem;
+
+      &:hover {
+        cursor: pointer;
+        border-radius: 1px;
+        transform: translateY(0.5rem);
+      }
+    }
+
     &--cyan {
       &::before {
         background-color: $color-cyan;
@@ -83,6 +91,12 @@
       @media (min-width: 1140px) {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
+
+        &:hover {
+          box-shadow: rgba($color-cyan, 1) 0px 2px 0px 5px,
+            rgba($color-cyan, 0.65) 0px 4px 6px 6px,
+            rgba($color-cyan, 0.08) 0px 1px 6px;
+        }
       }
     }
 
@@ -94,6 +108,12 @@
       @media (min-width: 1140px) {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
+
+        &:hover {
+          box-shadow: rgba($color-red, 1) 0px 2px 0px 5px,
+            rgba($color-red, 0.65) 0px 4px 6px 6px,
+            rgba($color-red, 0.08) 0px 1px 6px;
+        }
       }
     }
 
@@ -105,6 +125,12 @@
       @media (min-width: 1140px) {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+
+        &:hover {
+          box-shadow: rgba($color-orange, 1) 0px 2px 0px 5px,
+            rgba($color-orange, 0.65) 0px 4px 6px 6px,
+            rgba($color-orange, 0.08) 0px 1px 6px;
+        }
       }
     }
 
@@ -116,6 +142,12 @@
       @media (min-width: 1140px) {
         grid-column: 3 / 3;
         grid-row: 1 / 3;
+
+        &:hover {
+          box-shadow: rgba($color-blue, 1) 0px 2px 0px 5px,
+            rgba($color-blue, 0.65) 0px 4px 6px 6px,
+            rgba($color-blue, 0.08) 0px 1px 6px;
+        }
       }
     }
   }
@@ -159,12 +191,12 @@
   &__link:link,
   &__link:visited {
     text-transform: uppercase;
-    color: $color-primary--dark;
+    color: $color-primary--light;
     transition: all 0.2s;
   }
 
   &__link:hover,
   &__link:active {
-    color: $color-primary--light;
+    color: $color-primary--dark;
   }
 }
