@@ -1,6 +1,6 @@
-# Frontend Mentor - [PROJECT NAME] solution
+# Frontend Mentor - Four Card Feature Section Solution
 
-This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LINK). 
+This is a solution to the [Four Card Feature Section Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 
 ## Table of contents
 
@@ -15,21 +15,17 @@ This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LI
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
 
 Users should be able to:
 
-- OBJECTIVE_1
-- OBJECTIVE_2
-
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
-![screenshot](./screenshot.png)
-
+![screenshot](./images/screenshot-mobile.png) ![screenshot](./images/screenshot-tablet.png) ![screenshot](./images/screenshot-desktop.png)
 
 ### Links
 
@@ -55,15 +51,17 @@ To see how you can add code snippets, see below:
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log('🎉');
+};
 ```
 
 ### Continued development
@@ -80,4 +78,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@kens-visuals](https://www.frontendmentor.io/profile/kens-visuals)
 - Codewars - [@kens_visuals](https://www.codewars.com/users/kens_visuals)
 - CodePen - [@kens-visuals](https://codepen.io/kens-visuals)
-
