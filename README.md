@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [TO_BE_UPDATED](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-with-bem-and-scss-YfhlZvokE](https://www.frontendmentor.io/solutions/four-card-feature-section-with-bem-and-scss-YfhlZvokE)
 - Live Site URL: [https://kens-visuals.github.io/four-card-feature-section/](https://kens-visuals.github.io/four-card-feature-section/)
 
 ## My process
