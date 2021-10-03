@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-with-bem-and-scss-YfhlZvokE](https://www.frontendmentor.io/solutions/four-card-feature-section-with-bem-and-scss-YfhlZvokE)
 - Live Site URL: [https://kens-visuals.github.io/four-card-feature-section/](https://kens-visuals.github.io/four-card-feature-section/)
+- Solution URL: [https://www.frontendmentor.io/solutions/four-card-feature-section-with-bem-and-scss-YfhlZvokE](https://www.frontendmentor.io/solutions/four-card-feature-section-with-bem-and-scss-YfhlZvokE)
 
 ## My process
 
